@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Build & bundle outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Coverage & testing
+coverage/
+*.lcov
+.nyc_output
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Editor & IDE configurations
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata & temporary files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AI & Workspace tool directories
+.agents/
+.gemini/
